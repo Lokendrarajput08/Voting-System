@@ -1,0 +1,79 @@
+
+
+body{
+    background-image:url("voting2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.login h1{
+    padding: 10px 50px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2em;
+    background-color: rgb(31, 110, 116);
+}
+form{
+    /* display: block; */
+    padding-top: 30px;
+    text-align: center;
+}
+.login input{
+    height: 40px;
+    width: 400px;
+    padding: 2%;
+    margin: 2%;;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    /*outline: none;*/
+    background: cadetblue;
+    border: none; 
+    /* position: relative;  */
+}
+form button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 20px ;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+form button:hover{
+    font-weight: bold;
+    color: black;
+    opacity: 1;
+}
+form a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+form a:hover{
+    color: green;
+}
+.open-button {
+    background-color: lightskyblue;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-style: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 100px;
+}
+.open-button:hover{
+    font-weight: bold;
+    color: black;
+    opacity: 1;
+}
