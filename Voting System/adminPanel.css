@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  .sidebar {
+    margin: 0%;
+    padding: 0%;
+    width: 200px;
+    background-color: #0f0d0ddc;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+  }
+  .sidebar h4{
+      padding: 15px;
+      font-size: 20px;
+      background-color: cadetblue;
+      text-align: center;
+  }
+  .sidebar a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 16px;
+    text-decoration: none;
+  }  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 230px;
+    padding: 50px 16px;
+    /* height: 1000px; */
+  }
+  
+@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+.sidebar a {
+  float: left;
+  font-size:3vw;
+  padding: 10px;
+}
+div.content {margin-left: 0;}
+}
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      font-size:14px;
+      float: none;
+    }
+  }
+/* ==========  nominee form ============== */
+input[type=text], input[type=password],input[type=file]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus,input[type=file]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* ================== */
+ 
